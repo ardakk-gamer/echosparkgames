@@ -1,0 +1,16 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "echosparkgames",
+	"upload_source_maps": true,
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_id": "96d8f825-b635-4a4c-91c8-72f42efc80d4",
+			"database_name": "echosparkgames"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}

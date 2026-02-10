@@ -1,5 +1,7 @@
-CREATE TABLE tasks (
+CREATE TABLE users (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  content TEXT,
+  username TEXT UNIQUE,
+  key_hash TEXT,
+  role TEXT,
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );

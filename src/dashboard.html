@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>EchoSpark Studio Panel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Studio Dashboard</h1>
+
+  <div class="card">
+    <h2>Yeni Görev Ekle</h2>
+    <input id="taskInput" placeholder="Görev açıklaması">
+    <button onclick="addTask()">Ekle</button>
+  </div>
+
+  <div class="card">
+    <h2>Görevler</h2>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script type="module" src="main.ts"></script>
+</body>
+</html>

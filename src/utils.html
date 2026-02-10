@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Utilities</title>
+</head>
+<body>
+  <script>
+    function generateSessionId() {
+      return crypto.randomUUID();
+    }
+
+    function formatDate(date) {
+      return new Date(date).toLocaleString("tr-TR");
+    }
+
+    function logToConsole(message) {
+      console.log("[EchoSpark]", message);
+    }
+  </script>
+</body>
+</html>

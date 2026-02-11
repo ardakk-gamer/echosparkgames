@@ -1,5 +1,5 @@
 name = "devportal"
-main = "src/index.js"
+main = "backend/worker.js"
 compatibility_date = "2024-12-01"
 
 [observability]

@@ -8,4 +8,4 @@ enabled = true
 [[d1_databases]]
 binding = "DB"
 database_name = "echosparkgames"
-database_id = "BURAYA_CLOUDFLARE_D1_DATABASE_ID"
+database_id = "96d8f825-b635-4a4c-91c8-72f42efc80d4"

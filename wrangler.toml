@@ -1,0 +1,8 @@
+name = "devportal"
+main = "backend/worker.js"
+compatibility_date = "2026-02-19"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "echosparkgames"
+database_id = "96d8f825-b635-4a4c-91c8-72f42efc80d4"
